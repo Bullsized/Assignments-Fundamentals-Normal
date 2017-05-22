@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Greeting", "01 Greeting\01 Greeting.csproj", "{2B34A527-7F42-4CAB-A833-41CC369B45A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Add 2 Nums", "02 Add 2 Nums\02 Add 2 Nums.csproj", "{8CBF4BA3-2029-4876-908B-A79901A8C104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Employee Data", "03 Employee Data\03 Employee Data.csproj", "{AE5ADD56-B0D3-4D4C-A73B-571522E0C22C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B34A527-7F42-4CAB-A833-41CC369B45A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B34A527-7F42-4CAB-A833-41CC369B45A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B34A527-7F42-4CAB-A833-41CC369B45A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B34A527-7F42-4CAB-A833-41CC369B45A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CBF4BA3-2029-4876-908B-A79901A8C104}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CBF4BA3-2029-4876-908B-A79901A8C104}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CBF4BA3-2029-4876-908B-A79901A8C104}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CBF4BA3-2029-4876-908B-A79901A8C104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE5ADD56-B0D3-4D4C-A73B-571522E0C22C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE5ADD56-B0D3-4D4C-A73B-571522E0C22C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE5ADD56-B0D3-4D4C-A73B-571522E0C22C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE5ADD56-B0D3-4D4C-A73B-571522E0C22C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
