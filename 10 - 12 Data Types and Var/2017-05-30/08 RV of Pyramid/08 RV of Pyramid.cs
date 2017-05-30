@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _08_RV_of_Pyramid
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Length: ");
+            double length = double.Parse(Console.ReadLine());
+            Console.WriteLine("Width: ");
+            double width = double.Parse(Console.ReadLine());
+            Console.WriteLine("Heigth: ");
+            double heigth = double.Parse(Console.ReadLine());
+
+            double volume = (length + width + heigth) / 3;
+
+            Console.WriteLine("Pyramid Volume: {0:F2}", volume);
+        }
+    }
+}

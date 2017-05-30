@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C7EF5EDC-63AF-40CC-8653-4AD15911462B}</ProjectGuid>
+    <ProjectGuid>{E51256C2-CB78-4683-8251-9B323F9E3B96}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_07_Greeting</RootNamespace>
-    <AssemblyName>07 Greeting</AssemblyName>
+    <RootNamespace>_08_RV_of_Pyramid</RootNamespace>
+    <AssemblyName>08 RV of Pyramid</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="07 Greeting.cs" />
+    <Compile Include="08 RV of Pyramid.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
