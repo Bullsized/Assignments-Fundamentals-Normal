@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Circle Area", "02 Circle
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Exact Sum", "03 Exact Sum\03 Exact Sum.csproj", "{2C26367B-7981-4C9E-BF1E-07BE32F3C8A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Elevator", "04 Elevator\04 Elevator.csproj", "{C1C7EDE6-9819-4486-A5C4-2A2BF341BF3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{2C26367B-7981-4C9E-BF1E-07BE32F3C8A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C26367B-7981-4C9E-BF1E-07BE32F3C8A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C26367B-7981-4C9E-BF1E-07BE32F3C8A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C7EDE6-9819-4486-A5C4-2A2BF341BF3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C7EDE6-9819-4486-A5C4-2A2BF341BF3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C7EDE6-9819-4486-A5C4-2A2BF341BF3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C7EDE6-9819-4486-A5C4-2A2BF341BF3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
