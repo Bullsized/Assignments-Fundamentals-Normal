@@ -10,17 +10,19 @@ namespace _06_Triples_of_Latin_L
     {
         static void Main(string[] args)
         {
-            int n = int.Parse(Console.ReadLine());
+            int number = int.Parse(Console.ReadLine());
 
-            char letter = (char)('^' + n);
-
-            for (char first = letter; first < letter + 3; first++)
+            for (int i = 0; i < number; i++)
             {
-                for (char second = letter; second < letter + 3; second++)
+                for (int j = 0; j < number; j++)
                 {
-                    for (char third = letter; third < letter + 3; third++)
+                    for (int k = 0; k < number; k++)
                     {
-                        Console.WriteLine($"{first}{second}{third}");
+                        char firstLetter = (char)('a' + i);
+                        char secondLetter = (char)('a' + j);
+                        char thirdLetter = (char)('a' + k);
+
+                        Console.WriteLine($"{firstLetter}{secondLetter}{thirdLetter}");
                     }
                 }
             }

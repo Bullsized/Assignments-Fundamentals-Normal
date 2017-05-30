@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Greeting", "07 Greeting\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 RV of Pyramid", "08 RV of Pyramid\08 RV of Pyramid.csproj", "{E51256C2-CB78-4683-8251-9B323F9E3B96}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Refactor SN", "09 Refactor SN\09 Refactor SN.csproj", "{99DCCE84-AF82-46BD-95AB-709DF17CB6B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{E51256C2-CB78-4683-8251-9B323F9E3B96}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E51256C2-CB78-4683-8251-9B323F9E3B96}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E51256C2-CB78-4683-8251-9B323F9E3B96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DCCE84-AF82-46BD-95AB-709DF17CB6B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DCCE84-AF82-46BD-95AB-709DF17CB6B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DCCE84-AF82-46BD-95AB-709DF17CB6B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DCCE84-AF82-46BD-95AB-709DF17CB6B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

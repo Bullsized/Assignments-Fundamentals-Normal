@@ -10,14 +10,14 @@ namespace _08_RV_of_Pyramid
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Length: ");
+            Console.Write("Length: ");
             double length = double.Parse(Console.ReadLine());
-            Console.WriteLine("Width: ");
+            Console.Write("Width: ");
             double width = double.Parse(Console.ReadLine());
-            Console.WriteLine("Heigth: ");
+            Console.Write("Height: ");
             double heigth = double.Parse(Console.ReadLine());
 
-            double volume = (length + width + heigth) / 3;
+            double volume = (length * width * heigth) / 3;
 
             Console.WriteLine("Pyramid Volume: {0:F2}", volume);
         }
