@@ -10,8 +10,8 @@ namespace _02_Circle_Area
     {
         static void Main(string[] args)
         {
-            decimal radius = decimal.Parse(Console.ReadLine());
-            Console.WriteLine($"{((decimal)Math.PI * radius * radius):f12}");
+            double radius = double.Parse(Console.ReadLine());
+            Console.WriteLine($"{(Math.PI * radius * radius):f12}");
         }
     }
 }
