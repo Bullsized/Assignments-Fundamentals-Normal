@@ -1,0 +1,29 @@
+01 
+Name: Plamen Stoyanov
+From: Varna
+Hobbies: Video games, books
+Why SoftUni: Because of a course in Varna, also - proper coding!
+Git: Pazzobg
+
+02
+Name: Jivko Nedqlkov
+From: Varna
+Hobbies: Mountain climbing
+Why SoftUni: So he can find a better job!
+Git: Tuscann
+
+03
+Name: Rifat Cholakov
+From: Gotse Delchev
+Hobbies: Gaming, reading
+Why SoftUni: For a proper programming education!
+Git: WinOfficially
+
+04
+Name: Stoyan Zlatev
+From: Veliko Tarnovo
+Hobbies: Football games - both watching and playing
+Why SoftUni: He was in a need of a fresh start in his life!
+Git: spzvtbg
+
+
