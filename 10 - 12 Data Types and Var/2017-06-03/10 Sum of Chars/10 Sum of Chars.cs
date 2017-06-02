@@ -10,6 +10,15 @@ namespace _10_Sum_of_Chars
     {
         static void Main(string[] args)
         {
+            int n = int.Parse(Console.ReadLine());
+            int sum = 0;
+
+            for (int cycle = 0; cycle < n; cycle++)
+            {
+                char toAdd = char.Parse(Console.ReadLine());
+                sum += toAdd;
+            }
+            Console.WriteLine("The sum equals: " + sum);
         }
     }
 }
