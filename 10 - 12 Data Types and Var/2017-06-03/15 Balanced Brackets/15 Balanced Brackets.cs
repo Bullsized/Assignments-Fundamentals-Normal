@@ -22,18 +22,19 @@ namespace _15_Balanced_Brackets
                 if (bracketsOrNot == "(")
                 {
                     countOpen++;
+
+                    if (bracketsOrNot == doubleOpening && doubleOpening == "(")
+                    {
+                        Console.WriteLine("UNBALANCED");
+                        lamp = true;
+                        break;
+                    }
                 }
                 else if (bracketsOrNot == ")")
                 {
                     countClose++;
                 }
 
-                if (bracketsOrNot == doubleOpening && doubleOpening == "(")
-                {
-                    Console.WriteLine("UNBALANCED");
-                    lamp = true;
-                    break;
-                }
                 doubleOpening = bracketsOrNot;
             }
             if (countOpen == countClose && lamp == false)

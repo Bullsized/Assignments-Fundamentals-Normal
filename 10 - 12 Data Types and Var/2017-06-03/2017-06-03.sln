@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Boat Simulator", "14 Boa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Balanced Brackets", "15 Balanced Brackets\15 Balanced Brackets.csproj", "{86FD353A-1684-4DF6-B254-B3EC626353E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11 String Concate 2", "11 String Concate 2\11 String Concate 2.csproj", "{27F94994-2A01-4711-884C-B7F8AF313EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15 Balanced Brackets 2", "15 Balanced Brackets 2\15 Balanced Brackets 2.csproj", "{0D19D100-5E4B-4EAA-8A0E-C30AF2740C81}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{86FD353A-1684-4DF6-B254-B3EC626353E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86FD353A-1684-4DF6-B254-B3EC626353E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86FD353A-1684-4DF6-B254-B3EC626353E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27F94994-2A01-4711-884C-B7F8AF313EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F94994-2A01-4711-884C-B7F8AF313EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F94994-2A01-4711-884C-B7F8AF313EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F94994-2A01-4711-884C-B7F8AF313EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D19D100-5E4B-4EAA-8A0E-C30AF2740C81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D19D100-5E4B-4EAA-8A0E-C30AF2740C81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D19D100-5E4B-4EAA-8A0E-C30AF2740C81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D19D100-5E4B-4EAA-8A0E-C30AF2740C81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
