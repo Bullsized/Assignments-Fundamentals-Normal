@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08 Multiply Evens by Odds",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Holidays BTD", "09 Holidays BTD\09 Holidays BTD.csproj", "{F0C6A1FB-02A2-4768-AA65-07E897308EE8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10 Price ChangeA", "10 Price ChangeA\10 Price ChangeA.csproj", "{DDDCBE71-1934-409B-8559-F5BCEC1D6F09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{F0C6A1FB-02A2-4768-AA65-07E897308EE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F0C6A1FB-02A2-4768-AA65-07E897308EE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F0C6A1FB-02A2-4768-AA65-07E897308EE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDDCBE71-1934-409B-8559-F5BCEC1D6F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDDCBE71-1934-409B-8559-F5BCEC1D6F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDDCBE71-1934-409B-8559-F5BCEC1D6F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDDCBE71-1934-409B-8559-F5BCEC1D6F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
