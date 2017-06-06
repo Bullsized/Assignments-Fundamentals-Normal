@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D52B5FE-8E7B-4480-94FE-47F197D512C2}</ProjectGuid>
+    <ProjectGuid>{AAC2508F-D30C-489D-BDFC-02DA0D62FE9A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_12_Master_Number_2</RootNamespace>
-    <AssemblyName>12 Master Number 2</AssemblyName>
+    <RootNamespace>_06_Prime_Checker_2</RootNamespace>
+    <AssemblyName>06 Prime Checker 2</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="12 Master Number 2.cs" />
+    <Compile Include="06 Prime Checker 2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

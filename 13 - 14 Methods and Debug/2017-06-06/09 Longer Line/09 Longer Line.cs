@@ -10,6 +10,8 @@ namespace _09_Longer_Line
     {
         static void Main(string[] args)
         {           
+            //40 out of 100, logic is correct though!
+
             decimal xOne = decimal.Parse(Console.ReadLine());
             decimal yOne = decimal.Parse(Console.ReadLine());
             decimal xTwo = decimal.Parse(Console.ReadLine());
@@ -19,8 +21,7 @@ namespace _09_Longer_Line
             decimal xFour = decimal.Parse(Console.ReadLine());
             decimal yFour = decimal.Parse(Console.ReadLine());
 
-            decimal topSum, botSum;
-            decimal thirdSum, fourthSum;
+            decimal topSum, botSum, thirdSum, fourthSum;
 
             BiggerMethod(xOne, yOne, xTwo, yTwo, out topSum, out botSum);
             BiggerMethod(xThree, yThree, xFour, yFour, out thirdSum, out fourthSum);

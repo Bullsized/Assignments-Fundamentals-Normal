@@ -35,6 +35,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13 Factorial", "13 Factoria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14 Factorial TZ", "14 Factorial TZ\14 Factorial TZ.csproj", "{198D4512-BF4A-4A18-B4D4-C7E3D09A1453}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Prime Checker 2", "06 Prime Checker 2\06 Prime Checker 2.csproj", "{AAC2508F-D30C-489D-BDFC-02DA0D62FE9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{198D4512-BF4A-4A18-B4D4-C7E3D09A1453}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198D4512-BF4A-4A18-B4D4-C7E3D09A1453}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198D4512-BF4A-4A18-B4D4-C7E3D09A1453}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAC2508F-D30C-489D-BDFC-02DA0D62FE9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAC2508F-D30C-489D-BDFC-02DA0D62FE9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAC2508F-D30C-489D-BDFC-02DA0D62FE9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAC2508F-D30C-489D-BDFC-02DA0D62FE9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

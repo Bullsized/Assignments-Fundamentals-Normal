@@ -10,16 +10,17 @@ namespace _06_Prime_Checker
     {
         static void Main(string[] args)
         {
+            //75 out of 100, playing with the Prime Method
             int primeOrNot = int.Parse(Console.ReadLine());
 
             bool lamp = false;
 
-            lamp = PrimeOrNotPrime(primeOrNot, lamp);
+            lamp = IsPrime(primeOrNot, lamp);
 
             Console.WriteLine(lamp);
         }
 
-        private static bool PrimeOrNotPrime(int primeOrNot, bool lamp)
+        private static bool IsPrime(int primeOrNot, bool lamp)
         {
             if (primeOrNot == 1) return false;
             if (primeOrNot == 2) return true;

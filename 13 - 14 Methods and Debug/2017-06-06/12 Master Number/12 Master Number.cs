@@ -10,6 +10,8 @@ namespace _12_Master_Number
     {
         static void Main(string[] args)
         {
+            //50 out of 100, running out of ram due to forming arrays, otherwise logic is correct!
+
             int digit = int.Parse(Console.ReadLine());
             bool sumDivided = false;
             bool hasEvenDigit = false;
