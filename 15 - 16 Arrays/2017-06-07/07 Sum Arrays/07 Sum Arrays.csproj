@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1700AF63-AC4B-4998-9E9A-571346F7DF29}</ProjectGuid>
+    <ProjectGuid>{B1F7E09A-C168-48F8-BA5A-D0F5B053517A}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_05_Rounding_Nums</RootNamespace>
-    <AssemblyName>05 Rounding Nums</AssemblyName>
+    <RootNamespace>_07_Sum_Arrays</RootNamespace>
+    <AssemblyName>07 Sum Arrays</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="05 Rounding Nums.cs" />
+    <Compile Include="07 Sum Arrays.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
