@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0A4714D7-1FD9-4190-8B8A-9A937825BD49}</ProjectGuid>
+    <ProjectGuid>{6CE8939D-B8D9-461D-93CB-CFE83EE1B602}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_02_Rotate_and_Sum</RootNamespace>
-    <AssemblyName>02 Rotate and Sum</AssemblyName>
+    <RootNamespace>_03_Fold_and_Sum</RootNamespace>
+    <AssemblyName>03 Fold and Sum</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="02 Rotate and Sum.cs" />
+    <Compile Include="03 Fold and Sum .cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
