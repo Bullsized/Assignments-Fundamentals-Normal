@@ -11,6 +11,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Rotate and Sum 2", "02 R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Fold and Sum", "03 Fold and Sum\03 Fold and Sum.csproj", "{6CE8939D-B8D9-461D-93CB-CFE83EE1B602}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Compare Char Arrays", "05 Compare Char Arrays\05 Compare Char Arrays.csproj", "{AEF49180-89BA-4BBF-8DED-D6376924417F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Compare Char Arrays 2", "05 Compare Char Arrays 2\05 Compare Char Arrays 2.csproj", "{E12B8D7E-CF9A-486E-86DE-0E7D09CDA143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Sieve of Eratosthenes", "04 Sieve of Eratosthenes\04 Sieve of Eratosthenes.csproj", "{2DC62196-F251-4594-84B6-7D325C0341C3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +39,18 @@ Global
 		{6CE8939D-B8D9-461D-93CB-CFE83EE1B602}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE8939D-B8D9-461D-93CB-CFE83EE1B602}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CE8939D-B8D9-461D-93CB-CFE83EE1B602}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF49180-89BA-4BBF-8DED-D6376924417F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF49180-89BA-4BBF-8DED-D6376924417F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF49180-89BA-4BBF-8DED-D6376924417F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF49180-89BA-4BBF-8DED-D6376924417F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E12B8D7E-CF9A-486E-86DE-0E7D09CDA143}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E12B8D7E-CF9A-486E-86DE-0E7D09CDA143}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E12B8D7E-CF9A-486E-86DE-0E7D09CDA143}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E12B8D7E-CF9A-486E-86DE-0E7D09CDA143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DC62196-F251-4594-84B6-7D325C0341C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DC62196-F251-4594-84B6-7D325C0341C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DC62196-F251-4594-84B6-7D325C0341C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DC62196-F251-4594-84B6-7D325C0341C3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
