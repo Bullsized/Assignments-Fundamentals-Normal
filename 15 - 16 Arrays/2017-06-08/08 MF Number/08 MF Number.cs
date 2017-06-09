@@ -26,7 +26,7 @@ namespace _08_MF_Number
                         currentCounter++;
                     }
                 }
-
+               
                 if (currentCounter > maxCounter)
                 {
                     maxCounter = currentCounter;
