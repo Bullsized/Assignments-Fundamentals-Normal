@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Array Statistics", "01 A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Мanipulate Array", "02 Мanipulate Array\02 Мanipulate Array.csproj", "{A1FE0166-1A44-4E45-90C4-833A5C6BBC9A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09 Jump Around", "09 Jump Around\09 Jump Around.csproj", "{BC81AB35-EB6A-4028-819B-2CCDAE064CFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A1FE0166-1A44-4E45-90C4-833A5C6BBC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1FE0166-1A44-4E45-90C4-833A5C6BBC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1FE0166-1A44-4E45-90C4-833A5C6BBC9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC81AB35-EB6A-4028-819B-2CCDAE064CFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC81AB35-EB6A-4028-819B-2CCDAE064CFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC81AB35-EB6A-4028-819B-2CCDAE064CFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC81AB35-EB6A-4028-819B-2CCDAE064CFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
