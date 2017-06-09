@@ -24,7 +24,7 @@ namespace _03_Fold_and_Sum
             }
             for (int h = 0; h < inQuarter; h++)
             {
-                answer[2*h + inQuarter - h] = lineOfDigits[3 * inQuarter + h] + lineOfDigits[3 * inQuarter - 1 - h];
+                answer[inQuarter + h] = lineOfDigits[3 * inQuarter + h] + lineOfDigits[3 * inQuarter - 1 - h];
             }
 
             Console.WriteLine(string.Join(" ", answer));
