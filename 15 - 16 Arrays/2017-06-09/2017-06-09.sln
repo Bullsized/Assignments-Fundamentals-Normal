@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Safe Manipulation", "03 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Grab and Go", "04 Grab and Go\04 Grab and Go.csproj", "{BC61A576-D170-42E1-9FF4-0A94993C2C28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Pizza Ingredients", "05 Pizza Ingredients\05 Pizza Ingredients.csproj", "{8ECBEF93-3197-4381-8598-151C03FF2E6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Heists", "06 Heists\06 Heists.csproj", "{F7171706-2AB8-4E78-B3BC-C16D5C63AD8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{BC61A576-D170-42E1-9FF4-0A94993C2C28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC61A576-D170-42E1-9FF4-0A94993C2C28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC61A576-D170-42E1-9FF4-0A94993C2C28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8ECBEF93-3197-4381-8598-151C03FF2E6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8ECBEF93-3197-4381-8598-151C03FF2E6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8ECBEF93-3197-4381-8598-151C03FF2E6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8ECBEF93-3197-4381-8598-151C03FF2E6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7171706-2AB8-4E78-B3BC-C16D5C63AD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7171706-2AB8-4E78-B3BC-C16D5C63AD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7171706-2AB8-4E78-B3BC-C16D5C63AD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7171706-2AB8-4E78-B3BC-C16D5C63AD8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
