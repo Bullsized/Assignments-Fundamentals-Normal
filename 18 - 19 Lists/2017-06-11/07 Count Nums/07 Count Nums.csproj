@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59B5EA06-A903-4EBB-A4EF-158E620ADB35}</ProjectGuid>
+    <ProjectGuid>{F025BDEE-9FBE-459C-939A-1279791E9D29}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01_Remove_Negatives_and_R</RootNamespace>
-    <AssemblyName>01 Remove Negatives and R</AssemblyName>
+    <RootNamespace>_07_Count_Nums</RootNamespace>
+    <AssemblyName>07 Count Nums</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01 Remove Negatives and R.cs" />
+    <Compile Include="07 Count Nums.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

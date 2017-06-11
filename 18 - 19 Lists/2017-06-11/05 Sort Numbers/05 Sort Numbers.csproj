@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{59B5EA06-A903-4EBB-A4EF-158E620ADB35}</ProjectGuid>
+    <ProjectGuid>{058F56A3-BBBD-4235-8A62-24F9E203EFDC}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_01_Remove_Negatives_and_R</RootNamespace>
-    <AssemblyName>01 Remove Negatives and R</AssemblyName>
+    <RootNamespace>_05_Sort_Numbers</RootNamespace>
+    <AssemblyName>05 Sort Numbers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="01 Remove Negatives and R.cs" />
+    <Compile Include="05 Sort Numbers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
