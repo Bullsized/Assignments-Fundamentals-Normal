@@ -12,8 +12,6 @@ namespace _08_Upgraded_Matcher
         {
             string[] names = Console.ReadLine().Split();
             long[] quantity = Console.ReadLine().Split().Select(long.Parse).ToArray();
-            //If in the quantities array there is no index, which 
-            //corresponds to the name, you should assume the quantity is 0.
             decimal[] price = Console.ReadLine().Split().Select(decimal.Parse).ToArray();
 
             string[] inputName = Console.ReadLine().Split();
