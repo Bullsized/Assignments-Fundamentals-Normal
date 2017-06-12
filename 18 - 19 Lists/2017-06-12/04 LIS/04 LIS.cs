@@ -8,15 +8,14 @@ namespace _04_LIS
 {
     class Program
     {
+        //If this is a task for programming fundamentals, I am a train. Seroiusly.
         static void Main(string[] args)
         {
             var sequence = Console.ReadLine().Split().Select(int.Parse).ToArray();
 
             var longestSeq = FindLongestIncreasingSubsequence(sequence);
 
-            Console.WriteLine("Longest increasing subsequence (LIS)");
-            //   Console.WriteLine("  Length: {0}", longestSeq.Length);
-            Console.WriteLine("  Sequence: [{0}]", string.Join(", ", longestSeq));
+            Console.WriteLine("{0}", string.Join(" ", longestSeq));
         }
 
         public static int[] FindLongestIncreasingSubsequence(int[] sequence)
