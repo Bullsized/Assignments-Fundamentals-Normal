@@ -22,8 +22,8 @@ namespace _05_Array_Manipulator
                     case "addmany": AddManyMethod(lineOfDigits, lineOfCommands); break;
                     case "contains": ContainsMethod(lineOfDigits, lineOfCommands); break;
                     case "remove": RemoveMethod(lineOfDigits, lineOfCommands); break;
-                    case "shift": lineOfDigits = ShiftMethod(lineOfDigits, lineOfCommands); break;
-                    case "sumpairs": lineOfDigits = SumPairsMethod(lineOfDigits); break;
+                    case "shift": ShiftMethod(lineOfDigits, lineOfCommands); break;
+                    case "sumpairs": SumPairsMethod(lineOfDigits); break;
                 }
                 lineOfCommands = Console.ReadLine().ToLower().Split().ToList();
             }
@@ -31,7 +31,6 @@ namespace _05_Array_Manipulator
             Console.WriteLine($"[{string.Join(", ", lineOfDigits)}]");
 
         }
-
 
         private static void AddMethod(List<int> lineOfDigits, List<string> lineOfCommands)
         {
@@ -75,46 +74,30 @@ namespace _05_Array_Manipulator
             lineOfDigits.RemoveAt(indexer);
         }
 
-        private static List<int> ShiftMethod(List<int> lineOfDigits, List<string> lineOfCommands)
+        private static void ShiftMethod(List<int> lineOfDigits, List<string> lineOfCommands)
         {
             int positions = int.Parse(lineOfCommands[1]);
 
-            int[] temp = new int[lineOfDigits.Count];
+            int temp = 0;
 
-            for (int i = 0; i < lineOfDigits.Count - 1; i++)
+            for (int i = 0; i < positions; i++)
             {
-                temp[i] = lineOfDigits[i + positions];
-            }
-
-            temp[temp.Length - positions] = lineOfDigits[0];
-
-            lineOfDigits = temp.ToList();
-            return lineOfDigits;
+                temp = lineOfDigits[0];
+                lineOfDigits.RemoveAt(0);
+                lineOfDigits.Add(temp);
+            }         
         }
-       
-        private static List<int> SumPairsMethod(List<int> lineOfDigits)
-        {
-            List<int> sumPairs = new List<int>();
 
-            if (lineOfDigits.Count % 2 == 0)
+        private static void SumPairsMethod(List<int> lineOfDigits)
+        {
+            for (int i = 1; i < lineOfDigits.Count; i += 2)
             {
-                for (int cycle = 0; cycle < lineOfDigits.Count - 1; cycle++)
-                {
-                    sumPairs.Add(lineOfDigits[cycle] + lineOfDigits[cycle + 1]);
-                    cycle++;
-                }
+                lineOfDigits[i - 1] += lineOfDigits[i];
             }
-            else
+            for (int i = 1; i < lineOfDigits.Count; i++)
             {
-                for (int cycle = 0; cycle < lineOfDigits.Count - 2; cycle++)
-                {
-                    sumPairs.Add(lineOfDigits[cycle] + lineOfDigits[cycle + 1]);
-                    cycle++;
-                }
-            }
-            lineOfDigits.Clear();
-            lineOfDigits = sumPairs.ToList();
-            return lineOfDigits;
+                lineOfDigits.RemoveAt(i);
+            }          
         }
     }
 }
