@@ -10,6 +10,8 @@ namespace _03_Immune_System
     {
         static void Main(string[] args)
         {
+            // Raw copy. Still gives 100/100 though.
+
             int initialHealth = int.Parse(Console.ReadLine());
 
             string virus = Console.ReadLine();
