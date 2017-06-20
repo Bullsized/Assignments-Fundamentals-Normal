@@ -39,19 +39,19 @@ namespace _07_Sales_Report
 
     }
 
-    public class Shop
-    {
-        public string Quality { get; set; }
-        public string Product { get; set; }
-        public decimal Price { get; set; }
-        public decimal Quantity { get; set; }
-        public decimal Total
-        {
-            get
-            {
-                return Price * Quantity;
-            }
-        }
+    //public class Shop
+    //{
+    //    public string Quality { get; set; }
+    //    public string Product { get; set; }
+    //    public decimal Price { get; set; }
+    //    public decimal Quantity { get; set; }
+    //    public decimal Total
+    //    {
+    //        get
+    //        {
+    //            return Price * Quantity;
+    //        }
+    //    }
 
-    }
+    //}
 }
