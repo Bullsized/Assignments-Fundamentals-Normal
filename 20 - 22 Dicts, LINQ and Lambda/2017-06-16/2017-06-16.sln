@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Supermarket Database", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Parking Validation", "05 Parking Validation\05 Parking Validation.csproj", "{24BC619E-111C-4555-89CD-3563CAEE0EE3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 Byte Flip", "06 Byte Flip\06 Byte Flip.csproj", "{0E198B15-9B96-41FC-95B1-E02DE57FF388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07 Take Skip Rope", "07 Take Skip Rope\07 Take Skip Rope.csproj", "{FD8F9662-0FD1-4520-A797-77A28229D3FB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{24BC619E-111C-4555-89CD-3563CAEE0EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24BC619E-111C-4555-89CD-3563CAEE0EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24BC619E-111C-4555-89CD-3563CAEE0EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E198B15-9B96-41FC-95B1-E02DE57FF388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E198B15-9B96-41FC-95B1-E02DE57FF388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E198B15-9B96-41FC-95B1-E02DE57FF388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E198B15-9B96-41FC-95B1-E02DE57FF388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD8F9662-0FD1-4520-A797-77A28229D3FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD8F9662-0FD1-4520-A797-77A28229D3FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD8F9662-0FD1-4520-A797-77A28229D3FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD8F9662-0FD1-4520-A797-77A28229D3FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
