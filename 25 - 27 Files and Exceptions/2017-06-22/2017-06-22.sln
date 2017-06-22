@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Odd Lines", "01 Odd Lines\01 Odd Lines.csproj", "{905054DA-9B32-4429-9D20-F4DF12133F37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Insert Line Nums", "02 Insert Line Nums\02 Insert Line Nums.csproj", "{A0C1ACAC-6634-4A39-9751-DA84963CA387}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Word Count", "03 Word Count\03 Word Count.csproj", "{9A26ED03-84EB-4B83-9B6C-E362A9924338}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{905054DA-9B32-4429-9D20-F4DF12133F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{905054DA-9B32-4429-9D20-F4DF12133F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{905054DA-9B32-4429-9D20-F4DF12133F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{905054DA-9B32-4429-9D20-F4DF12133F37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C1ACAC-6634-4A39-9751-DA84963CA387}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C1ACAC-6634-4A39-9751-DA84963CA387}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C1ACAC-6634-4A39-9751-DA84963CA387}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C1ACAC-6634-4A39-9751-DA84963CA387}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A26ED03-84EB-4B83-9B6C-E362A9924338}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A26ED03-84EB-4B83-9B6C-E362A9924338}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A26ED03-84EB-4B83-9B6C-E362A9924338}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A26ED03-84EB-4B83-9B6C-E362A9924338}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
