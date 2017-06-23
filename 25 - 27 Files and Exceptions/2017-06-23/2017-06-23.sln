@@ -9,6 +9,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Vehicle Catalogue", "02 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Jarvis", "03 Jarvis\03 Jarvis.csproj", "{68A682D7-D684-4160-B61E-99EF986FAA56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 Jarvis 2", "03 Jarvis 2\03 Jarvis 2.csproj", "{8DA51B4C-0498-4DFD-BBAA-AB6FCB272E60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 Punctuation Finder", "04 Punctuation Finder\04 Punctuation Finder.csproj", "{FAF53078-2F28-4057-9229-4682781B5684}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 Write to File", "05 Write to File\05 Write to File.csproj", "{32E4ACE2-284C-43B9-8DC1-6E2BD72A5990}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +33,18 @@ Global
 		{68A682D7-D684-4160-B61E-99EF986FAA56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68A682D7-D684-4160-B61E-99EF986FAA56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68A682D7-D684-4160-B61E-99EF986FAA56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DA51B4C-0498-4DFD-BBAA-AB6FCB272E60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DA51B4C-0498-4DFD-BBAA-AB6FCB272E60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DA51B4C-0498-4DFD-BBAA-AB6FCB272E60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DA51B4C-0498-4DFD-BBAA-AB6FCB272E60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF53078-2F28-4057-9229-4682781B5684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF53078-2F28-4057-9229-4682781B5684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF53078-2F28-4057-9229-4682781B5684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF53078-2F28-4057-9229-4682781B5684}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E4ACE2-284C-43B9-8DC1-6E2BD72A5990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E4ACE2-284C-43B9-8DC1-6E2BD72A5990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E4ACE2-284C-43B9-8DC1-6E2BD72A5990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E4ACE2-284C-43B9-8DC1-6E2BD72A5990}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

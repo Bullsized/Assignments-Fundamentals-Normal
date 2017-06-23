@@ -15,6 +15,13 @@ namespace _03_Jarvis
             bool passTheFirstArm = false;
             bool passTheFirstLeg = false;
 
+            bool hasArmOne = false;
+            bool hasArmTwo = false;
+            bool hasLegOne = false;
+            bool hasLegTwo = false;
+            bool hasTorso = false;
+            bool hasHead = false;
+
             var armOne = new Arms()
             {
                 EnergyCons = int.MaxValue,
@@ -70,6 +77,7 @@ namespace _03_Jarvis
                         headClass.EnergyCons = givenConsumptionOfEnergy;
                         headClass.IQ = int.Parse(inputLineToArray[2]);
                         headClass.Material = inputLineToArray[3];
+                        hasHead = true;
                     }
 
                 }
@@ -81,6 +89,7 @@ namespace _03_Jarvis
                         torsoClass.EnergyCons = givenConsumptionOfEnergy;
                         torsoClass.Processor = double.Parse(inputLineToArray[2]);
                         torsoClass.Material = inputLineToArray[3];
+                        hasTorso = true;
                     }
 
                 }
@@ -93,6 +102,7 @@ namespace _03_Jarvis
                         armOne.Reach = int.Parse(inputLineToArray[2]);
                         armOne.Fingers = int.Parse(inputLineToArray[3]);
                         passTheFirstArm = true;
+                        hasArmOne = true;
                     }
                     else if (armTwo.EnergyCons >= givenConsumptionOfEnergy)
                     {
@@ -100,6 +110,7 @@ namespace _03_Jarvis
                         armTwo.Reach = int.Parse(inputLineToArray[2]);
                         armTwo.Fingers = int.Parse(inputLineToArray[3]);
                         passTheFirstArm = false;
+                        hasArmTwo = true;
                     }
                 }
 
@@ -111,6 +122,7 @@ namespace _03_Jarvis
                         legOne.Strength = int.Parse(inputLineToArray[2]);
                         legOne.Speed = int.Parse(inputLineToArray[3]);
                         passTheFirstLeg = true;
+                        hasLegOne = true;
                     }
                     else if (legTwo.EnergyCons >= givenConsumptionOfEnergy)
                     {
@@ -118,6 +130,7 @@ namespace _03_Jarvis
                         legTwo.Strength = int.Parse(inputLineToArray[2]);
                         legTwo.Speed = int.Parse(inputLineToArray[3]);
                         passTheFirstLeg = false;
+                        hasLegTwo = true;
                     }
                 }
 
@@ -129,15 +142,17 @@ namespace _03_Jarvis
                 torsoClass.EnergyCons;
 
             //print method VVV
-            if (jarvisHealth < sumOfAllComponentsEnergy)
-            {
-                Console.WriteLine("We need more power!");
-            }
-            else if (armOne.EnergyCons == int.MaxValue || armTwo.EnergyCons == int.MaxValue ||
-     legOne.EnergyCons == int.MaxValue || legTwo.EnergyCons == int.MaxValue ||
-     headClass.EnergyCons == int.MaxValue || torsoClass.EnergyCons == int.MaxValue)
+            //       if (armOne.EnergyCons == int.MaxValue || armTwo.EnergyCons == int.MaxValue ||
+            //legOne.EnergyCons == int.MaxValue || legTwo.EnergyCons == int.MaxValue ||
+            //headClass.EnergyCons == int.MaxValue || torsoClass.EnergyCons == int.MaxValue)
+            if (hasHead == false || hasTorso == false || hasArmOne == false || 
+                hasArmTwo == false || hasLegOne == false || hasLegTwo == false)
             {
                 Console.WriteLine("We need more parts!");
+            }
+            else if (jarvisHealth < sumOfAllComponentsEnergy)
+            {
+                Console.WriteLine("We need more power!");
             }
             else
             {
@@ -150,22 +165,50 @@ namespace _03_Jarvis
                 Console.WriteLine("###Energy consumption: {0}", torsoClass.EnergyCons);
                 Console.WriteLine("###Processor size: {0:f1}", torsoClass.Processor);
                 Console.WriteLine("###Corpus material: {0}", torsoClass.Material);
-                Console.WriteLine("#Arm:");
-                Console.WriteLine("###Energy consumption: {0}", armOne.EnergyCons);
-                Console.WriteLine("###Reach: {0}", armOne.Reach);
-                Console.WriteLine("###Fingers: {0}", armOne.Fingers);
-                Console.WriteLine("#Arm:");
-                Console.WriteLine("###Energy consumption: {0}", armTwo.EnergyCons);
-                Console.WriteLine("###Reach: {0}", armTwo.Reach);
-                Console.WriteLine("###Fingers: {0}", armTwo.Fingers);
-                Console.WriteLine("#Leg:");
-                Console.WriteLine("###Energy consumption: {0}", legTwo.EnergyCons);
-                Console.WriteLine("###Strength: {0}", legTwo.Strength);
-                Console.WriteLine("###Speed: {0}", legTwo.Speed);
-                Console.WriteLine("#Leg:");
-                Console.WriteLine("###Energy consumption: {0}", legOne.EnergyCons);
-                Console.WriteLine("###Strength: {0}", legOne.Strength);
-                Console.WriteLine("###Speed: {0}", legOne.Speed);
+                if (armOne.EnergyCons < armOne.EnergyCons)
+                {
+                    Console.WriteLine("#Arm:");
+                    Console.WriteLine("###Energy consumption: {0}", armOne.EnergyCons);
+                    Console.WriteLine("###Reach: {0}", armOne.Reach);
+                    Console.WriteLine("###Fingers: {0}", armOne.Fingers);
+                    Console.WriteLine("#Arm:");
+                    Console.WriteLine("###Energy consumption: {0}", armTwo.EnergyCons);
+                    Console.WriteLine("###Reach: {0}", armTwo.Reach);
+                    Console.WriteLine("###Fingers: {0}", armTwo.Fingers);
+                }
+                else
+                {
+                    Console.WriteLine("#Arm:");
+                    Console.WriteLine("###Energy consumption: {0}", armTwo.EnergyCons);
+                    Console.WriteLine("###Reach: {0}", armTwo.Reach);
+                    Console.WriteLine("###Fingers: {0}", armTwo.Fingers);
+                    Console.WriteLine("#Arm:");
+                    Console.WriteLine("###Energy consumption: {0}", armOne.EnergyCons);
+                    Console.WriteLine("###Reach: {0}", armOne.Reach);
+                    Console.WriteLine("###Fingers: {0}", armOne.Fingers);
+                }
+                if (legOne.EnergyCons < legTwo.EnergyCons)
+                {
+                    Console.WriteLine("#Leg:");
+                    Console.WriteLine("###Energy consumption: {0}", legOne.EnergyCons);
+                    Console.WriteLine("###Strength: {0}", legOne.Strength);
+                    Console.WriteLine("###Speed: {0}", legOne.Speed);
+                    Console.WriteLine("#Leg:");
+                    Console.WriteLine("###Energy consumption: {0}", legTwo.EnergyCons);
+                    Console.WriteLine("###Strength: {0}", legTwo.Strength);
+                    Console.WriteLine("###Speed: {0}", legTwo.Speed);
+                }
+                else
+                {
+                    Console.WriteLine("#Leg:");
+                    Console.WriteLine("###Energy consumption: {0}", legTwo.EnergyCons);
+                    Console.WriteLine("###Strength: {0}", legTwo.Strength);
+                    Console.WriteLine("###Speed: {0}", legTwo.Speed);
+                    Console.WriteLine("#Leg:");
+                    Console.WriteLine("###Energy consumption: {0}", legOne.EnergyCons);
+                    Console.WriteLine("###Strength: {0}", legOne.Strength);
+                    Console.WriteLine("###Speed: {0}", legOne.Speed);
+                }
             }
         }
     }
