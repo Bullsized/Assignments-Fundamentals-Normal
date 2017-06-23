@@ -148,8 +148,8 @@ namespace _03_Jarvis
                 Console.WriteLine("###Skin material: {0}", headClass.Material);
                 Console.WriteLine("#Torso:");
                 Console.WriteLine("###Energy consumption: {0}", torsoClass.EnergyCons);
-                Console.WriteLine("###Processor size: {0}", torsoClass.Processor);
-                Console.WriteLine("###Corpus material: {0}", torsoClass.Processor);
+                Console.WriteLine("###Processor size: {0:f1}", torsoClass.Processor);
+                Console.WriteLine("###Corpus material: {0}", torsoClass.Material);
                 Console.WriteLine("#Arm:");
                 Console.WriteLine("###Energy consumption: {0}", armOne.EnergyCons);
                 Console.WriteLine("###Reach: {0}", armOne.Reach);
@@ -159,13 +159,13 @@ namespace _03_Jarvis
                 Console.WriteLine("###Reach: {0}", armTwo.Reach);
                 Console.WriteLine("###Fingers: {0}", armTwo.Fingers);
                 Console.WriteLine("#Leg:");
-                Console.WriteLine("###Energy consumption: {0}", legOne.EnergyCons);
-                Console.WriteLine("###Strength: {0}", legOne.Strength);
-                Console.WriteLine("###Speed: {0}", legOne.Speed);
-                Console.WriteLine("#Leg:");
                 Console.WriteLine("###Energy consumption: {0}", legTwo.EnergyCons);
                 Console.WriteLine("###Strength: {0}", legTwo.Strength);
                 Console.WriteLine("###Speed: {0}", legTwo.Speed);
+                Console.WriteLine("#Leg:");
+                Console.WriteLine("###Energy consumption: {0}", legOne.EnergyCons);
+                Console.WriteLine("###Strength: {0}", legOne.Strength);
+                Console.WriteLine("###Speed: {0}", legOne.Speed);
             }
         }
     }
