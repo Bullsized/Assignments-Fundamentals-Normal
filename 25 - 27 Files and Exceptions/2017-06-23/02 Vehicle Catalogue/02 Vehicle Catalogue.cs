@@ -10,6 +10,7 @@ namespace _02_Vehicle_Catalogue
     {
         //60/100 due to... no reason. The description was idiotic once again.
 
+        //need to parse every text ToLower(), that's why. Oh well.
 
 
 
